@@ -1,0 +1,42 @@
+/* Apply basic styles to the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px auto;
+}
+
+/* Style the table header */
+thead {
+  background-color: #f2f2f2;
+}
+
+th {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style table rows and alternate row colors */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Style table cells */
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Center align text in the Placement column */
+td:first-child {
+  text-align: center;
+}
+
+/* Apply some padding to the Description column */
+td:last-child {
+  padding-left: 20px;
+}
+
